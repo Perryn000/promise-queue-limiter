@@ -1,4 +1,4 @@
-# 🐻 PromiseQueueLimiter
+**# 🐻 PromiseQueueLimiter
 
 `PromiseQueueLimiter` is a simple class for controlling the number of concurrently running asynchronous operations. It helps
 limit the number of async functions executed at the same time and maintains a queue for tasks that cannot be executed
@@ -159,5 +159,8 @@ Promise.allSettled(promises).then(() => {
 ## Conclusion
 
 `PromiseQueueLimiter` is a convenient tool for managing asynchronous operations with a limited number of concurrent tasks. It’s
-perfect for scenarios where it’s important to control parallelism to avoid overloading a server or an external API.
+perfect for scenarios where it’s important to control parallelism to avoid overloading a server or an external API.**
 
+## Repository
+
+You can find the source code and contribute to the project on [GitHub](https://github.com/Perryn000/promise-queue-limiter).
