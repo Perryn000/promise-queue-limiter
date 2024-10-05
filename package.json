@@ -1,0 +1,28 @@
+{
+  "name": "promise-queue-limiter",
+  "version": "1.0.0",
+  "main": "dist/PromisesQueue.js",
+  "types": "dist/PromisesQueue.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Petro Shevchuk",
+  "license": "MIT",
+  "description": "A simple and efficient module for managing concurrent promises with a queue and concurrency limiter.",
+  "keywords": [
+    "promise-queue-limiter",
+    "promise-queue",
+    "promise",
+    "queue",
+    "limiter",
+    "async",
+    "concurrency",
+    "task",
+    "manager",
+    "throttle",
+    "rate-limit"
+  ],
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
