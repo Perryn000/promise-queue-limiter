@@ -1,4 +1,4 @@
-**# 🐻 PromiseQueueLimiter
+# 🐻 PromiseQueueLimiter
 
 `PromiseQueueLimiter` is a simple class for controlling the number of concurrently running asynchronous operations. It helps
 limit the number of async functions executed at the same time and maintains a queue for tasks that cannot be executed
